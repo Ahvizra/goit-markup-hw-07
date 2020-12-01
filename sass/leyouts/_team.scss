@@ -1,0 +1,29 @@
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-section {
+  background-color: $bg;
+  height: 708px;
+}
+.person {
+  background-color: $white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.person .name:last-child {
+  padding-bottom: 30px;
+}
+.person .name:first-child {
+  padding-top: 30px;
+}
+.person .text {
+  padding-top: 10px;
+}

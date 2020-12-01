@@ -1,0 +1,53 @@
+.target-conteiner {
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.first::before {
+  background-color: $bg;
+  border-radius: 4px;
+  display: block;
+  content: "";
+  background-image: url(../img/Group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.second::before {
+  background-color: $bg;
+  border-radius: 4px;
+  display: block;
+  content: "";
+  background-image: url(../img/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.three::before {
+  background-color: $bg;
+  border-radius: 4px;
+  display: block;
+  content: "";
+  background-image: url(../img/diagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.four::before {
+  background-color: $bg;
+  border-radius: 4px;
+  display: block;
+  content: "";
+  background-image: url(../img/astronaut.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
