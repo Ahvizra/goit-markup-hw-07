@@ -1,8 +1,8 @@
 .target-conteiner {
-  width: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  width: calc(100% / 4 - 22.5px);
   margin-top: 30px;
 }
+
 .first::before {
   background-color: $bg;
   border-radius: 4px;

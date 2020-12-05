@@ -6,6 +6,11 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
+
+  &-conteiner {
+    padding: 200px 15px;
+    max-width: 696px;
+  }
 }
 .motivation {
   background-color: #c4c4c4;
@@ -20,9 +25,4 @@
   height: 600px;
   display: flex;
   align-items: center;
-}
-
-.hero-conteiner {
-  padding: 200px 15px;
-  max-width: 696px;
 }

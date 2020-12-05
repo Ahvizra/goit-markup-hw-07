@@ -27,7 +27,9 @@ body {
   line-height: 1.7;
   color: $black;
 }
-
+img {
+  display: block;
+}
 .link {
   color: inherit;
   text-decoration: none;
@@ -65,4 +67,7 @@ body {
 .hed {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.work {
+  justify-content: space-between;
 }

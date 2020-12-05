@@ -3,13 +3,14 @@
   font-size: 14px;
   line-height: 1.7;
   color: $gray;
-}
-.text-header {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+
+  &-header {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 }
 .low-header {
   font-weight: bold;

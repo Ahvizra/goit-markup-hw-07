@@ -31,6 +31,10 @@ body {
   color: #212121;
 }
 
+img {
+  display: block;
+}
+
 .link {
   color: inherit;
   text-decoration: none;
@@ -70,6 +74,10 @@ body {
 .hed {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.work {
+  justify-content: space-between;
 }
 
 .text {
@@ -114,13 +122,6 @@ body {
   justify-content: center;
 }
 
-.filter {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-
 .part-button {
   font-weight: 500;
   font-size: 16px;
@@ -140,6 +141,13 @@ body {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -204,43 +212,6 @@ body {
   fill: #ffffff;
 }
 
-.header-adress {
-  font-size: 14px;
-  color: #757575;
-}
-
-.heder-ico-phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: #757575;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.heder-ico-mail {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: #757575;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.malto:hover .heder-ico-mail,
-.malto:focus .heder-ico-mail {
-  fill: #2196f3;
-}
-
-.tel:hover .heder-ico-phone,
-.tel:focus .heder-ico-phone {
-  fill: #2196f3;
-}
-
-.menu > .text {
-  font-weight: 500;
-}
-
 .header {
   height: 80px;
   background-color: #ffffff;
@@ -257,12 +228,72 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.menu:not(:last-child) {
-  margin-right: 50px;
+.header-adress {
+  font-size: 14px;
+  color: #757575;
+}
+
+.header-ico-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-ico-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.malto:hover .header-ico-mail,
+.malto:focus .header-ico-mail {
+  fill: #2196f3;
+}
+
+.heder-ico-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel:hover .heder-ico-phone,
+.tel:focus .heder-ico-phone {
+  fill: #2196f3;
+}
+
+.heder-ico-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.malto:hover .heder-ico-mail,
+.malto:focus .heder-ico-mail {
+  fill: #2196f3;
 }
 
 .menu {
   position: relative;
+}
+
+.menu > .text {
+  font-weight: 500;
+}
+
+.menu:not(:last-child) {
+  margin-right: 50px;
 }
 
 .curent {
@@ -294,6 +325,14 @@ body {
   left: 0;
 }
 
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 252px;
+  background-color: #212121;
+}
+
 .footer-menu {
   list-style-type: none;
   padding: 0px;
@@ -305,20 +344,41 @@ body {
   justify-content: space-between;
 }
 
-.footer {
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  height: 252px;
-  background-color: #212121;
-}
-
 .footer-list:not(:last-child) {
   padding-bottom: 9px;
 }
 
 .footer-logo {
   padding-bottom: 20px;
+}
+
+.footer-input {
+  padding: 15px 16px;
+  background-color: #212121;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+}
+
+.footer-svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  padding-left: 10px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-soc .social-svg {
@@ -341,35 +401,6 @@ body {
   font-style: normal;
   font-weight: bold;
   padding-bottom: 20px;
-}
-
-.footer-input {
-  padding: 15px 16px;
-  background-color: #212121;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  width: 358px;
-  color: rgba(255, 255, 255, 0.6);
-  margin-right: 12px;
-}
-
-.footer-form {
-  display: flex;
-}
-
-.footer-svg {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
-  padding-left: 10px;
-}
-
-.footer-form .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .partfolio-pic {
